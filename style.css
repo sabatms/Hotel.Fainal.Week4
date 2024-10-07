@@ -1,13 +1,13 @@
 body{
-    display: flex;
-    height: 100vh;
     padding: 0;
     margin: 0;
+    overflow-x: hidden;
+
 }
 
 .Hotel-Fainal{
     display: flex;
-    width: 1400px;
+    width: auto;
     box-sizing: border-box;
 }
 
@@ -26,7 +26,7 @@ body{
     padding: 20px 109px 0 109px;
     box-sizing: border-box;
     position: relative;
-    height: 80vh; 
+    height: 84vh; 
     width: 100vw; 
     overflow: hidden;
 }
@@ -36,26 +36,26 @@ body{
 }
 
 .circle{
-    width: 450px; 
-    height: 450px; 
+    width: 340px; 
+    height: 340px; 
     background-color: #ffffff; 
     border-radius: 50%;
     position: absolute; 
-    margin-top: 100px;
-    margin-left: 300px;
+    margin-top: 120px;
+    margin-left: 250px;
     z-index: 1;
 }
 .building-image {
-    width: 550px; 
-    height: 550px; 
+    width: 400px; 
+    height: 400px; 
     position: absolute; 
-    top: 55%; 
+    top: 46%; 
     left: 81.5%;
     transform: translate(-50%, -50%); 
     z-index: 2; 
     object-fit: scale-down;
     flex-wrap: wrap;
-    margin-top: 50px;
+    margin-top: 90px;
 }
 
 .group1{
@@ -328,6 +328,7 @@ body{
   margin-left: 20px;
   background: #597193;
   margin-top: 2.5px;
+  margin-bottom: 10px;
 }
 
 .watchvideo{
@@ -340,4 +341,5 @@ body{
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
+    margin-bottom: 9px;
 }
