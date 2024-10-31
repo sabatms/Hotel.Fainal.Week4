@@ -978,7 +978,7 @@ footer {
     background-color: #9ebdd4;
     width: 30%;
     height: 350px; 
-    margin-top: -20px;
+    margin-top: -10px;
     color: white;
     border-radius: 5px;
 }
@@ -988,7 +988,7 @@ footer {
     width: 80px;
     height: 80px;
     object-fit: cover;
-    margin-bottom: 10px;
+    margin-top: 20px;
     background-color: white;
     margin-left: 20px;
 }
