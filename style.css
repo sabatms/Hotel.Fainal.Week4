@@ -970,6 +970,7 @@ footer {
     object-fit: cover;
     margin-bottom: 10px;
     background-color: white;
+    margin-left: 20px;
 }
 
 .cardactive1 {
@@ -979,10 +980,6 @@ footer {
     margin-top: -20px;
     color: white;
     border-radius: 5px;
-}
-
-.card1 img {
-    margin-left: 20px; 
 }
 
 .cardactive1 img{
