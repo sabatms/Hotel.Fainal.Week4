@@ -30,14 +30,14 @@ body {
 }
 
 .container {
-    position: relative;
+    position: relative; 
 }
 
 .circle {
     width: 50vw; 
     height: 50vw; 
-    max-width: 400px; 
-    max-height: 400px; 
+    max-width: 350px; 
+    max-height: 350px; 
     background-color: #ffffff; 
     border-radius: 50%;
     position: absolute; 
@@ -50,15 +50,14 @@ body {
 
 .picturelift {
     width: 80vw; 
-    height: 600px; 
-    max-width: 400px; 
+    height: auto; 
+    max-width: 290px; 
     position: absolute;
-    top: 26.9%; 
+    top: 48%; 
     left: 76%;
-    transform: translate(-50%, -50%); 
-    z-index: 2; 
-    object-fit: scale-down;
-    margin-top: 10%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    object-fit: contain;
 }
 
 .group1 {
@@ -685,6 +684,7 @@ footer {
     align-content: center;
     margin-top: -24px;
     margin-right: -260px;
+
 }
 
 
@@ -724,7 +724,7 @@ footer {
     justify-content: space-around;
     align-items: center;
     align-content: center;
-    font-size: 12px;
+    font-size: 10px;
     text-align: center;
 }
 
