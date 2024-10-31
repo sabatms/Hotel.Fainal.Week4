@@ -50,7 +50,7 @@ body {
 
 .picturelift {
     width: 80vw; 
-    height: auto; 
+    height: 600px; 
     max-width: 400px; 
     position: absolute;
     top: 26.9%; 
